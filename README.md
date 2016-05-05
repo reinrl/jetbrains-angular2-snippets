@@ -30,5 +30,10 @@ ng2-ngSwitch
 ```
 
 ## Installation
-Documentation about Snippets aka "Live Templates": <br/>
-https://www.jetbrains.com/help/idea/2016.1/live-templates.html
+There are two ways to do this:
+
+ - Store a copy of the Angular2-Snippets.xml file in the corresponding [templates](https://www.jetbrains.com/help/idea/2016.1/live-templates.html) folder.
+ - Follow the [instructions](https://www.jetbrains.com/help/idea/2016.1/sharing-live-templates.html) under "To paste the live templates" 
+
+
+
