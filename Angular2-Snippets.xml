@@ -56,7 +56,7 @@
       <option name="TypeScript" value="true" />
     </context>
   </template>
-  <template name="ng2-subscribe" value="this.$SERVICE$.$FUNCTION$&#10;    .subscribe($ARG$ =&gt; this.$PROPERTY$ = $ARG$);&#10;$END$    " description="Angular2 subscribe snippet" toReformat="false" toShortenFQNames="true">
+  <template name="ng2-subscribe" value="this.$SERVICE$.$FUNCTION$()&#10;    .subscribe($ARG$ =&gt; this.$PROPERTY$ = $ARG$);&#10;$END$    " description="Angular2 subscribe snippet" toReformat="false" toShortenFQNames="true">
     <variable name="SERVICE" expression="" defaultValue="&quot;service&quot;" alwaysStopAt="true" />
     <variable name="FUNCTION" expression="" defaultValue="&quot;function&quot;" alwaysStopAt="true" />
     <variable name="ARG" expression="" defaultValue="&quot;arg&quot;" alwaysStopAt="true" />
